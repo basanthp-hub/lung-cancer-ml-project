@@ -1,0 +1,5 @@
+outs:
+- md5: 319c3206a7f10c17c3b9116d4a957646
+  size: 5
+  hash: md5
+  path: requirements.txt
