@@ -6,3 +6,4 @@ mlflow.db
 venv/
 .env
 training_graph.png
+*.ipynb
