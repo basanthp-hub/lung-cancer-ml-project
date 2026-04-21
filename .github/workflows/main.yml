@@ -24,11 +24,3 @@ jobs:
     - name: Run ML model
       run: |
         python ml_model.py
-
-    - name: Run DL model
-      run: |
-        python dl_model.py
-
-    - name: Run QML model
-      run: |
-        python qml_model.py
