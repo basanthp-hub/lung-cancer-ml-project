@@ -1,0 +1,76 @@
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\basan>cd lung-cancer-project
+
+C:\Users\basan\lung-cancer-project>git init
+Reinitialized existing Git repository in C:/Users/basan/lung-cancer-project/.git/
+
+C:\Users\basan\lung-cancer-project>git add .
+warning: in the working copy of 'iris-dataset-classification.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\basan\lung-cancer-project>git commit -m "final project"
+[main 1ff4699] final project
+ 10 files changed, 2573 insertions(+), 14 deletions(-)
+ create mode 100644 comparison.py
+ create mode 100644 dl.txt
+ create mode 100644 dl_model.py
+ create mode 100644 heart.csv
+ create mode 100644 iris-dataset-classification.ipynb
+ delete mode 100644 iris.csv
+ create mode 100644 ml_model.py
+ create mode 100644 qml.txt
+ create mode 100644 qml_model.py
+
+C:\Users\basan\lung-cancer-project>git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 275.31 KiB | 10.20 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/basanthp-hub/lung-cancer-ml-project.git
+   ff18cbe..1ff4699  main -> main
+
+C:\Users\basan\lung-cancer-project>git rm -r --cached .
+rm '.dvc/.gitignore'
+rm '.dvc/config'
+rm '.dvcignore'
+rm '.gitignore'
+rm 'Dockerfile'
+rm 'comparison.py'
+rm 'deployment.yaml'
+rm 'dl.txt'
+rm 'dl_model.py'
+rm 'heart.csv'
+rm 'iris-dataset-classification.ipynb'
+rm 'main.py'
+rm 'ml_model.py'
+rm 'mlflow_demo.py'
+rm 'model.py'
+rm 'qml.txt'
+rm 'qml_model.py'
+rm 'requirements.txt'
+rm 'requirements.txt.dvc'
+
+C:\Users\basan\lung-cancer-project>git add .
+
+C:\Users\basan\lung-cancer-project>git commit -m "clean repo"
+[main cdffe3a] clean repo
+ 4 files changed, 2 insertions(+), 2187 deletions(-)
+ delete mode 100644 .dvc/.gitignore
+ delete mode 100644 .dvc/config
+ delete mode 100644 iris-dataset-classification.ipynb
+
+C:\Users\basan\lung-cancer-project>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/basanthp-hub/lung-cancer-ml-project.git
+   1ff4699..cdffe3a  main -> main
+
+C:\Users\basan\lung-cancer-project>
