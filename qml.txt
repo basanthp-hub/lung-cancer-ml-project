@@ -1,0 +1,58 @@
+C:\Users\basan\lung-cancer-project>pip install pennylane scikit-learn numpy
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pennylane
+  Downloading pennylane-0.44.1-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: scikit-learn in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (1.8.0)
+Requirement already satisfied: numpy in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (2.4.2)
+Requirement already satisfied: scipy in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (1.17.1)
+Requirement already satisfied: networkx in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (3.6.1)
+Collecting rustworkx>=0.14.0 (from pennylane)
+  Downloading rustworkx-0.17.1-cp39-abi3-win_amd64.whl.metadata (10 kB)
+Collecting autograd (from pennylane)
+  Downloading autograd-1.8.0-py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: appdirs in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (1.4.4)
+Collecting autoray==0.8.2 (from pennylane)
+  Downloading autoray-0.8.2-py3-none-any.whl.metadata (6.1 kB)
+Requirement already satisfied: cachetools in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (7.0.5)
+Collecting pennylane-lightning>=0.44 (from pennylane)
+  Downloading pennylane_lightning-0.44.0-cp313-cp313-win_amd64.whl.metadata (11 kB)
+Requirement already satisfied: requests in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (2.32.5)
+Requirement already satisfied: tomlkit in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (0.14.0)
+Requirement already satisfied: typing_extensions in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (4.15.0)
+Requirement already satisfied: packaging in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (25.0)
+Collecting diastatic-malt==2.15.2 (from pennylane)
+  Downloading diastatic_malt-2.15.2-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: gast in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from pennylane) (0.7.0)
+Requirement already satisfied: astunparse in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from diastatic-malt==2.15.2->pennylane) (1.6.3)
+Requirement already satisfied: termcolor in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from diastatic-malt==2.15.2->pennylane) (3.3.0)
+Requirement already satisfied: joblib>=1.3.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from scikit-learn) (1.5.3)
+Requirement already satisfied: threadpoolctl>=3.2.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from scikit-learn) (3.6.0)
+Collecting scipy-openblas32>=0.3.26 (from pennylane-lightning>=0.44->pennylane)
+  Downloading scipy_openblas32-0.3.31.188.0-py3-none-win_amd64.whl.metadata (57 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from astunparse->diastatic-malt==2.15.2->pennylane) (0.46.3)
+Requirement already satisfied: six<2.0,>=1.6.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from astunparse->diastatic-malt==2.15.2->pennylane) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests->pennylane) (3.4.5)
+Requirement already satisfied: idna<4,>=2.5 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests->pennylane) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests->pennylane) (2.6.3)
+Requirement already satisfied: certifi>=2017.4.17 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests->pennylane) (2026.2.25)
+Downloading pennylane-0.44.1-py3-none-any.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 4.8 MB/s  0:00:01
+Downloading autoray-0.8.2-py3-none-any.whl (935 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 935.6/935.6 kB 9.6 MB/s  0:00:00
+Downloading diastatic_malt-2.15.2-py3-none-any.whl (167 kB)
+Downloading pennylane_lightning-0.44.0-cp313-cp313-win_amd64.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 4.0 MB/s  0:00:01
+Downloading rustworkx-0.17.1-cp39-abi3-win_amd64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 4.6 MB/s  0:00:00
+Downloading scipy_openblas32-0.3.31.188.0-py3-none-win_amd64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 6.8 MB/s  0:00:01
+Downloading autograd-1.8.0-py3-none-any.whl (51 kB)
+Installing collected packages: scipy-openblas32, rustworkx, autoray, autograd, diastatic-malt, pennylane-lightning, pennylane
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━ 6/7 [pennylane]  WARNING: The script pl-device-test.exe is installed in 'C:\Users\basan\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed autograd-1.8.0 autoray-0.8.2 diastatic-malt-2.15.2 pennylane-0.44.1 pennylane-lightning-0.44.0 rustworkx-0.17.1 scipy-openblas32-0.3.31.188.0
+
+C:\Users\basan\lung-cancer-project>python qml_model.py
+
+===== QML PERFORMANCE =====
+Accuracy: 0.5701754385964912

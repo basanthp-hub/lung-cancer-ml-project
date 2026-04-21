@@ -1,14 +1,8 @@
 __pycache__/
 *.pyc
 *.pyo
-
 mlflow.db
-*.db
-
 .dvc/
-.dvcignore
-
 venv/
 .env
-
-.DS_Store
+training_graph.png

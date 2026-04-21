@@ -1,0 +1,142 @@
+C:\Users\basan\lung-cancer-project>pip install tensorflow matplotlib
+Defaulting to user installation because normal site-packages is not writeable
+Collecting tensorflow
+  Downloading tensorflow-2.21.0-cp313-cp313-win_amd64.whl.metadata (4.5 kB)
+Requirement already satisfied: matplotlib in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (3.10.8)
+Collecting absl-py>=1.0.0 (from tensorflow)
+  Downloading absl_py-2.4.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting astunparse>=1.6.0 (from tensorflow)
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl.metadata (4.4 kB)
+Collecting flatbuffers>=25.9.23 (from tensorflow)
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 (from tensorflow)
+  Downloading gast-0.7.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting google_pasta>=0.1.1 (from tensorflow)
+  Downloading google_pasta-0.2.0-py3-none-any.whl.metadata (814 bytes)
+Collecting libclang>=13.0.0 (from tensorflow)
+  Downloading libclang-18.1.1-py2.py3-none-win_amd64.whl.metadata (5.3 kB)
+Collecting opt_einsum>=2.3.2 (from tensorflow)
+  Downloading opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: packaging in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (25.0)
+Requirement already satisfied: protobuf<8.0.0,>=6.31.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (6.33.5)
+Requirement already satisfied: requests<3,>=2.21.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (2.32.5)
+Requirement already satisfied: setuptools in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (82.0.1)
+Requirement already satisfied: six>=1.12.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (1.17.0)
+Collecting termcolor>=1.1.0 (from tensorflow)
+  Downloading termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: typing_extensions>=3.6.6 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (4.15.0)
+Collecting wrapt>=1.11.0 (from tensorflow)
+  Downloading wrapt-2.1.2-cp313-cp313-win_amd64.whl.metadata (7.6 kB)
+Collecting grpcio<2.0,>=1.24.3 (from tensorflow)
+  Downloading grpcio-1.80.0-cp313-cp313-win_amd64.whl.metadata (3.9 kB)
+Collecting keras>=3.12.0 (from tensorflow)
+  Downloading keras-3.14.0-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: numpy>=1.26.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from tensorflow) (2.4.2)
+Collecting h5py<3.15.0,>=3.11.0 (from tensorflow)
+  Downloading h5py-3.14.0-cp313-cp313-win_amd64.whl.metadata (2.7 kB)
+Collecting ml_dtypes<1.0.0,>=0.5.1 (from tensorflow)
+  Downloading ml_dtypes-0.5.4-cp313-cp313-win_amd64.whl.metadata (9.2 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests<3,>=2.21.0->tensorflow) (3.4.5)
+Requirement already satisfied: idna<4,>=2.5 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests<3,>=2.21.0->tensorflow) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests<3,>=2.21.0->tensorflow) (2.6.3)
+Requirement already satisfied: certifi>=2017.4.17 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from requests<3,>=2.21.0->tensorflow) (2026.2.25)
+Requirement already satisfied: contourpy>=1.0.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (4.62.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (1.5.0)
+Requirement already satisfied: pillow>=8 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (12.1.1)
+Requirement already satisfied: pyparsing>=3 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (3.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from matplotlib) (2.9.0.post0)
+Collecting wheel<1.0,>=0.23.0 (from astunparse>=1.6.0->tensorflow)
+  Downloading wheel-0.46.3-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: rich in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from keras>=3.12.0->tensorflow) (14.3.3)
+Collecting namex (from keras>=3.12.0->tensorflow)
+  Downloading namex-0.1.0-py3-none-any.whl.metadata (322 bytes)
+Collecting optree (from keras>=3.12.0->tensorflow)
+  Downloading optree-0.19.0-cp313-cp313-win_amd64.whl.metadata (35 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from rich->keras>=3.12.0->tensorflow) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from rich->keras>=3.12.0->tensorflow) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in C:\Users\basan\AppData\Roaming\Python\Python313\site-packages (from markdown-it-py>=2.2.0->rich->keras>=3.12.0->tensorflow) (0.1.2)
+Downloading tensorflow-2.21.0-cp313-cp313-win_amd64.whl (351.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 351.2/351.2 MB 13.2 MB/s  0:00:26
+Downloading grpcio-1.80.0-cp313-cp313-win_amd64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 13.3 MB/s  0:00:00
+Downloading h5py-3.14.0-cp313-cp313-win_amd64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 11.6 MB/s  0:00:00
+Downloading ml_dtypes-0.5.4-cp313-cp313-win_amd64.whl (212 kB)
+Downloading absl_py-2.4.0-py3-none-any.whl (135 kB)
+Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Downloading wheel-0.46.3-py3-none-any.whl (30 kB)
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading gast-0.7.0-py3-none-any.whl (22 kB)
+Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Downloading keras-3.14.0-py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 11.0 MB/s  0:00:00
+Downloading libclang-18.1.1-py2.py3-none-win_amd64.whl (26.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.4/26.4 MB 12.6 MB/s  0:00:02
+Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Downloading wrapt-2.1.2-cp313-cp313-win_amd64.whl (60 kB)
+Downloading namex-0.1.0-py3-none-any.whl (5.9 kB)
+Downloading optree-0.19.0-cp313-cp313-win_amd64.whl (337 kB)
+Installing collected packages: namex, libclang, flatbuffers, wrapt, wheel, termcolor, optree, opt_einsum, ml_dtypes, h5py, grpcio, google_pasta, gast, absl-py, astunparse, keras, tensorflow
+   ━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  4/17 [wheel]  WARNING: The script wheel.exe is installed in 'C:\Users\basan\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━ 16/17 [tensorflow]  WARNING: The scripts saved_model_cli.exe, tf_upgrade_v2.exe, tflite_convert.exe and toco.exe are installed in 'C:\Users\basan\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed absl-py-2.4.0 astunparse-1.6.3 flatbuffers-25.12.19 gast-0.7.0 google_pasta-0.2.0 grpcio-1.80.0 h5py-3.14.0 keras-3.14.0 libclang-18.1.1 ml_dtypes-0.5.4 namex-0.1.0 opt_einsum-3.4.0 optree-0.19.0 tensorflow-2.21.0 termcolor-3.3.0 wheel-0.46.3 wrapt-2.1.2
+
+C:\Users\basan\lung-cancer-project>python dl_model.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776695457.216985   41592 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776695464.224464   41592 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+===== DATASET SHAPE =====
+(442, 10)
+I0000 00:00:1776695469.072791   41592 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Epoch 1/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 1s 17ms/step - loss: 31328.8008 - mae: 158.0360 - val_loss: 22313.4688 - val_mae: 133.4373
+Epoch 2/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 31249.2910 - mae: 157.8178 - val_loss: 22261.5742 - val_mae: 133.2598
+Epoch 3/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 31166.2207 - mae: 157.5836 - val_loss: 22205.8125 - val_mae: 133.0689
+Epoch 4/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step - loss: 31072.4688 - mae: 157.3241 - val_loss: 22146.5293 - val_mae: 132.8633
+Epoch 5/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30970.3613 - mae: 157.0396 - val_loss: 22080.3691 - val_mae: 132.6344
+Epoch 6/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30859.5254 - mae: 156.7247 - val_loss: 22004.5449 - val_mae: 132.3724
+Epoch 7/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30732.5078 - mae: 156.3692 - val_loss: 21920.4629 - val_mae: 132.0819
+Epoch 8/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30593.3359 - mae: 155.9765 - val_loss: 21828.0137 - val_mae: 131.7609
+Epoch 9/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30440.1309 - mae: 155.5461 - val_loss: 21725.2480 - val_mae: 131.4012
+Epoch 10/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30271.2773 - mae: 155.0629 - val_loss: 21610.5840 - val_mae: 130.9989
+Epoch 11/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 30084.0352 - mae: 154.5340 - val_loss: 21484.3457 - val_mae: 130.5577
+Epoch 12/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 29888.2949 - mae: 153.9695 - val_loss: 21343.0000 - val_mae: 130.0620
+Epoch 13/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 29662.8574 - mae: 153.3167 - val_loss: 21191.5605 - val_mae: 129.5277
+Epoch 14/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 29426.7520 - mae: 152.6303 - val_loss: 21026.1582 - val_mae: 128.9449
+Epoch 15/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 29168.3047 - mae: 151.8785 - val_loss: 20844.9805 - val_mae: 128.3040
+Epoch 16/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - loss: 28890.6465 - mae: 151.0526 - val_loss: 20646.6074 - val_mae: 127.6035
+Epoch 17/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - loss: 28579.5215 - mae: 150.1459 - val_loss: 20435.6523 - val_mae: 126.8538
+Epoch 18/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 28238.3730 - mae: 149.1572 - val_loss: 20209.1250 - val_mae: 126.0408
+Epoch 19/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 27879.9395 - mae: 148.1002 - val_loss: 19963.6543 - val_mae: 125.1585
+Epoch 20/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 27499.8770 - mae: 146.9374 - val_loss: 19696.4941 - val_mae: 124.1963
+3/3 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 22853.8789 - mae: 134.1370
+
+===== DL PERFORMANCE =====
+MAE: 134.13697814941406
